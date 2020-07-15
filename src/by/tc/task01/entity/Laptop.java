@@ -2,7 +2,7 @@ package by.tc.task01.entity;
 
 import java.util.Objects;
 
-public class Laptop extends Appliance{
+public class Laptop implements Appliance{
     private double batteryCapacity;
     private String os;
     private int memoryROM;
