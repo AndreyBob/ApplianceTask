@@ -2,7 +2,7 @@ package by.tc.task01.entity;
 
 import java.util.Objects;
 
-public class TabletPC extends Appliance{
+public class TabletPC implements Appliance{
 
     private int batteryCapacity;
     private int displayInches;
