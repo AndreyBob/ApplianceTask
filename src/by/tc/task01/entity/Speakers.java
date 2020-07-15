@@ -2,7 +2,7 @@ package by.tc.task01.entity;
 
 import java.util.Objects;
 
-public class Speakers extends Appliance{
+public class Speakers implements Appliance{
 
     private int powerConsumption;
     private int numberOfSpeakers;
